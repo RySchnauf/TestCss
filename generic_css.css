@@ -2,3 +2,7 @@
     mso-hyphenate: none;
     font: 16px/26px Arial, Helvetica, sans-serif;
 }
+
+#body-indication p:first-child {
+    margin-top: 0;
+}
