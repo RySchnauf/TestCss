@@ -1,0 +1,113 @@
+#isi_body p, #body-indication p, #blackbox_body p {
+    mso-hyphenate: none;
+    font: 16px/26px Arial, Helvetica, sans-serif;
+}
+
+#body-indication p:first-child {
+    margin-top: 0;
+}
+
+#head-indication p, #isi_head p, #isi_body p.contraindica, #isi_body p.warningsandp, #isi_body p.adversereact, #isi_body p.druginteract, #isi_body p.useinspecifi {
+    mso-hyphenate: none;
+    font: 20px/30px Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#head-indication td, #isi_head td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+#isi_body p:first-child {
+    margin-top: 0;
+}
+
+
+.embryofetalt, .hepatotoxici, .fluidretenti, .hemoglobinde, .pulmonaryede, .decreasedspe, .pregnancy, .lactation {
+    mso-hyphenate: none;
+    font: 16px/26px Arial, Helvetica, sans-serif;    
+}
+
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+#blackbox {
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+#blackbox_head p {
+    mso-hyphenate: none;
+    text-align: center;
+    font: 16px/26px Arial, Helvetica, sans-serif;    
+    margin: 0;
+}
+
+#blackbox_head td {
+    padding-bottom: 16px;
+}
+
+.has-blackbox-warning {
+    padding-top: 20px;
+}
+
+
+sup {
+    line-height: 0;
+    mso-line-height-rule: exactly;
+}
+
+.superscript {
+    vertical-align: 6px;
+    font-size: 65%;
+    line-height: 0;
+    mso-line-height-rule: exactly;
+}
+
+.isi-body-table {
+    width: 100%;
+}
+
+.isi-body-table > tbody > tr > td {
+    width: 50%;
+}
+
+.isi-body-table > tbody > tr > td:nth-child(2), td:nth-child(3) {
+    padding-left: 16px;
+}
+
+.isi-body-table tr td:first-child:nth-last-child(3),
+.isi-body-table tr td:first-child:nth-last-child(3) ~ td {
+    width: 33.333% !important;
+    min-width: 33.333% !important;
+}
+
+.bullet {
+    mso-hyphenate: none;
+    font: 16px/18px Arial, Helvetica, sans-serif;
+    padding-right: 10px;    
+}
+
+
+table td.bullet,
+table td.bullet + td {
+  padding-bottom: 8px;
+  font: 16px/26px Arial, Helvetica, sans-serif; 
+}
+
+table td.bullet:last-child,
+table td.bullet:last-child + td {
+  padding-bottom: 0;
+}
+
+
+.left-indent1 {
+    padding-left: 12px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
